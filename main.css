@@ -156,6 +156,63 @@ footer{
   text-align: center;
 }
 
+.footer_subscribe{
+  background-color: var(--third-color);
+  width: 100%;
+  height: 320px;
+}
+
+.footer_subscribe h4{
+  font-size: 45px;
+}
+
+.footer_subcribe-content-form
+  .footer_subcribe-content-form--input
+  .footer_subcribe-form--input{
+    display: flex;
+    position: relative;
+    height: 70px;
+    width: 50%;
+    background-color: var(--text-color);
+    border-radius: 50px;
+    align-items: center;
+    margin-top: 58px;
+  }
+
+.footer_subcribe-content-form .footer_subcribe-content-form--input .footer_subcribe-content-form{
+  position: absolute;
+  right: 10px;
+}
+
+.footer_subcribe-content-form
+  .footer_subcribe-content-form--input
+  .footer_subcribe-form--input{
+  width: 70%;
+  padding: 8px;
+}
+
+
+.footer_subcribe-form--btn
+  button{
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    line-height: 1em;
+    font-weight: 500;
+    padding: 20px;
+    background-color: var(--fist-color);
+    border-radius: 50px;
+    width: 160px;
+    height: 58px;
+    text-align: center;
+    border: 1px solid var(--fist-color);
+  }
+
+.footer_subcribe-form--btn:hover
+  button{
+    color: var(--text-color);
+    background-color: rgba(13, 0, 30, 1);
+  }  
+
 .footer_container{
   display: flex;
   justify-content: space-between;
